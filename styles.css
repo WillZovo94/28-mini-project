@@ -1,0 +1,67 @@
+:root {
+    --bg-color-1: rgb(89, 189, 164);
+    --bg-color-3: rgb(129, 129, 129);
+    --bg-color-2: rgb(43, 107, 91);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-color-1);
+}
+
+#header {
+    display: flex;
+    background: linear-gradient(var(--bg-color-2), var(--bg-color-3));
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background: linear-gradient(var(--bg-color-2) 5%, var(--bg-color-3));
+    border-radius: 5px;
+    color: white;
+    width: 500px;
+}
+
+/* */
+
+#name {
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+#location {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+#bio { 
+    padding-bottom: 15px;  
+    font-size: 20px;
+}
+
+#linkedin {   
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+#github {  
+    padding-bottom: 15px;
+        font-size: 20px;
+}
